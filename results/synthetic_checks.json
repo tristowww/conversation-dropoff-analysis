@@ -1,0 +1,1647 @@
+{
+  "min_n": 100,
+  "conversations": 360,
+  "user_turns": 4320,
+  "cohorts": {
+    "all": {
+      "all_turns": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 360,
+            "mean_words": 80.15555555555555,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 360,
+            "mean_words": 80.16111111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 360,
+            "mean_words": 80.01944444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 360,
+            "mean_words": 80.025,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 360,
+            "mean_words": 79.83611111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 360,
+            "mean_words": 80.04444444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 360,
+            "mean_words": 63.575,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 360,
+            "mean_words": 63.422222222222224,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 360,
+            "mean_words": 63.19166666666667,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 360,
+            "mean_words": 63.358333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 360,
+            "mean_words": 63.21111111111111,
+            "median_words": 79.5
+          },
+          {
+            "turn": 12,
+            "n": 360,
+            "mean_words": 63.30555555555556,
+            "median_words": 79.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9747836603195011
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -20.575374791782345
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.9828122442298258
+            },
+            "direction": {
+              "turn": 7,
+              "score": 92.33984711945209
+            }
+          }
+        }
+      },
+      "exclude_first": {
+        "rows": [
+          {
+            "turn": 2,
+            "n": 360,
+            "mean_words": 80.16111111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 360,
+            "mean_words": 80.01944444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 360,
+            "mean_words": 80.025,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 360,
+            "mean_words": 79.83611111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 360,
+            "mean_words": 80.04444444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 360,
+            "mean_words": 63.575,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 360,
+            "mean_words": 63.422222222222224,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 360,
+            "mean_words": 63.19166666666667,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 360,
+            "mean_words": 63.358333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 360,
+            "mean_words": 63.21111111111111,
+            "median_words": 79.5
+          },
+          {
+            "turn": 12,
+            "n": 360,
+            "mean_words": 63.30555555555556,
+            "median_words": 79.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9756734707964377
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -20.575374791782345
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.9828122442298258
+            },
+            "direction": {
+              "turn": 7,
+              "score": 91.11639595047464
+            }
+          }
+        }
+      },
+      "exclude_final": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 360,
+            "mean_words": 80.15555555555555,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 360,
+            "mean_words": 80.16111111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 360,
+            "mean_words": 80.01944444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 360,
+            "mean_words": 80.025,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 360,
+            "mean_words": 79.83611111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 360,
+            "mean_words": 80.04444444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 360,
+            "mean_words": 63.575,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 360,
+            "mean_words": 63.422222222222224,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 360,
+            "mean_words": 63.19166666666667,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 360,
+            "mean_words": 63.358333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 360,
+            "mean_words": 63.21111111111111,
+            "median_words": 79.5
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9756734707964377
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -20.575374791782345
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.9828122442298258
+            },
+            "direction": {
+              "turn": 7,
+              "score": 91.11639595047464
+            }
+          }
+        }
+      },
+      "fixed_cohort_10": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 360,
+            "mean_words": 80.15555555555555,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 360,
+            "mean_words": 80.16111111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 360,
+            "mean_words": 80.01944444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 360,
+            "mean_words": 80.025,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 360,
+            "mean_words": 79.83611111111111,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 360,
+            "mean_words": 80.04444444444445,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 360,
+            "mean_words": 63.575,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 360,
+            "mean_words": 63.422222222222224,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 360,
+            "mean_words": 63.19166666666667,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 360,
+            "mean_words": 63.358333333333334,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9768748131814603
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -20.575374791782345
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.9828122442298258
+            },
+            "direction": {
+              "turn": 7,
+              "score": 89.77415362606106
+            }
+          }
+        }
+      }
+    },
+    "flat": {
+      "all_turns": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": null,
+            "percentage": null,
+            "curvature": null,
+            "direction": null
+          }
+        }
+      },
+      "exclude_first": {
+        "rows": [
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": null,
+            "percentage": null,
+            "curvature": null,
+            "direction": null
+          }
+        }
+      },
+      "exclude_final": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": null,
+            "percentage": null,
+            "curvature": null,
+            "direction": null
+          }
+        }
+      },
+      "fixed_cohort_10": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": null,
+            "percentage": null,
+            "curvature": null,
+            "direction": null
+          }
+        }
+      }
+    },
+    "injected_decline": {
+      "all_turns": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80.49166666666666,
+            "median_words": 81.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80.26666666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.88333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80.18333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 30.116666666666667,
+            "median_words": 30.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 30.2,
+            "median_words": 30.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 30.125,
+            "median_words": 30.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 29.95,
+            "median_words": 30.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 30.166666666666668,
+            "median_words": 30.0
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 30.108333333333334,
+            "median_words": 30.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9947645028277217
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -62.44024111411349
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.996537510305029
+            },
+            "direction": {
+              "turn": 7,
+              "score": 88.49225459431554
+            }
+          }
+        }
+      },
+      "exclude_first": {
+        "rows": [
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80.49166666666666,
+            "median_words": 81.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80.26666666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.88333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80.18333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 30.116666666666667,
+            "median_words": 30.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 30.2,
+            "median_words": 30.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 30.125,
+            "median_words": 30.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 29.95,
+            "median_words": 30.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 30.166666666666668,
+            "median_words": 30.0
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 30.108333333333334,
+            "median_words": 30.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9956364563816288
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -62.44024111411349
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.996537510305029
+            },
+            "direction": {
+              "turn": 7,
+              "score": 87.6325096167232
+            }
+          }
+        }
+      },
+      "exclude_final": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80.49166666666666,
+            "median_words": 81.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80.26666666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.88333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80.18333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 30.116666666666667,
+            "median_words": 30.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 30.2,
+            "median_words": 30.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 30.125,
+            "median_words": 30.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 29.95,
+            "median_words": 30.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 30.166666666666668,
+            "median_words": 30.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9956364563816288
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -62.44024111411349
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.996537510305029
+            },
+            "direction": {
+              "turn": 7,
+              "score": 87.6325096167232
+            }
+          }
+        }
+      },
+      "fixed_cohort_10": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 80.49166666666666,
+            "median_words": 81.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 80.26666666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 80.33333333333333,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.88333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 80.18333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 30.116666666666667,
+            "median_words": 30.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 30.2,
+            "median_words": 30.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 30.125,
+            "median_words": 30.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 29.95,
+            "median_words": 30.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 7,
+              "score": 0.9968137400179196
+            },
+            "percentage": {
+              "turn": 7,
+              "score": -62.44024111411349
+            },
+            "curvature": {
+              "turn": 7,
+              "score": -0.996537510305029
+            },
+            "direction": {
+              "turn": 7,
+              "score": 86.65805997197246
+            }
+          }
+        }
+      }
+    },
+    "noisy_flat": {
+      "all_turns": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.13333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 79.99166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 79.79166666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 79.74166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.625,
+            "median_words": 79.5
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 79.95,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80.60833333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80.06666666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 79.45,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80.125,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 79.46666666666667,
+            "median_words": 79.5
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 79.80833333333334,
+            "median_words": 79.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 11,
+              "score": 0.5755700390292973
+            },
+            "percentage": {
+              "turn": 11,
+              "score": -0.8216328653146102
+            },
+            "curvature": {
+              "turn": 11,
+              "score": -1.1510791366906452
+            },
+            "direction": {
+              "turn": 11,
+              "score": 162.0453674345231
+            }
+          }
+        }
+      },
+      "exclude_first": {
+        "rows": [
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 79.99166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 79.79166666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 79.74166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.625,
+            "median_words": 79.5
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 79.95,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80.60833333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80.06666666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 79.45,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80.125,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 79.46666666666667,
+            "median_words": 79.5
+          },
+          {
+            "turn": 12,
+            "n": 120,
+            "mean_words": 79.80833333333334,
+            "median_words": 79.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 11,
+              "score": 0.5770757376794396
+            },
+            "percentage": {
+              "turn": 11,
+              "score": -0.8216328653146102
+            },
+            "curvature": {
+              "turn": 11,
+              "score": -1.1510791366906452
+            },
+            "direction": {
+              "turn": 11,
+              "score": 160.28358977443597
+            }
+          }
+        }
+      },
+      "exclude_final": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.13333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 79.99166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 79.79166666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 79.74166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.625,
+            "median_words": 79.5
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 79.95,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80.60833333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80.06666666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 79.45,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80.125,
+            "median_words": 80.0
+          },
+          {
+            "turn": 11,
+            "n": 120,
+            "mean_words": 79.46666666666667,
+            "median_words": 79.5
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 11,
+              "score": 0.5770757376794396
+            },
+            "percentage": {
+              "turn": 11,
+              "score": -0.8216328653146102
+            },
+            "curvature": {
+              "turn": 11,
+              "score": -1.1510791366906452
+            },
+            "direction": {
+              "turn": 11,
+              "score": 160.28358977443597
+            }
+          }
+        }
+      },
+      "fixed_cohort_10": {
+        "rows": [
+          {
+            "turn": 1,
+            "n": 120,
+            "mean_words": 80.13333333333334,
+            "median_words": 80.0
+          },
+          {
+            "turn": 2,
+            "n": 120,
+            "mean_words": 79.99166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 3,
+            "n": 120,
+            "mean_words": 79.79166666666667,
+            "median_words": 80.0
+          },
+          {
+            "turn": 4,
+            "n": 120,
+            "mean_words": 79.74166666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 5,
+            "n": 120,
+            "mean_words": 79.625,
+            "median_words": 79.5
+          },
+          {
+            "turn": 6,
+            "n": 120,
+            "mean_words": 79.95,
+            "median_words": 80.0
+          },
+          {
+            "turn": 7,
+            "n": 120,
+            "mean_words": 80.60833333333333,
+            "median_words": 81.0
+          },
+          {
+            "turn": 8,
+            "n": 120,
+            "mean_words": 80.06666666666666,
+            "median_words": 80.0
+          },
+          {
+            "turn": 9,
+            "n": 120,
+            "mean_words": 79.45,
+            "median_words": 79.0
+          },
+          {
+            "turn": 10,
+            "n": 120,
+            "mean_words": 80.125,
+            "median_words": 80.0
+          }
+        ],
+        "detection": {
+          "min_n": 100,
+          "eligible_turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excluded_turns": [],
+          "methods": {
+            "euclidean": {
+              "turn": 9,
+              "score": 0.5438454395590316
+            },
+            "percentage": {
+              "turn": 9,
+              "score": -0.7701915070774272
+            },
+            "curvature": {
+              "turn": 8,
+              "score": -1.035971223021587
+            },
+            "direction": {
+              "turn": 8,
+              "score": 155.57222113801583
+            }
+          }
+        }
+      }
+    }
+  }
+}

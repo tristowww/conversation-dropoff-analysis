@@ -1,0 +1,13 @@
+{
+  "transcripts": 1250,
+  "role_sequence_issues": {
+    "empty_message": 16
+  },
+  "empty_user_responses": 3,
+  "duplicate_ids": 0,
+  "role_message_counts": {
+    "assistant": 15745,
+    "user": 14495
+  },
+  "sql_python_aggregation_match": true
+}

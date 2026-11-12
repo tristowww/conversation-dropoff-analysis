@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the method repository and separately attribute the source dataset."
+title: "Conversation Drop-off Analysis"
+authors:
+  - family-names: Ristow
+    given-names: Teresa
+type: software
+version: 0.1.0
+date-released: 2026-11-12
+repository-code: "https://github.com/tristowww/conversation-dropoff-analysis"
+abstract: "Transparent response-length diagnostics, synthetic controls, and a reproducible secondary analysis of public research interviews."
