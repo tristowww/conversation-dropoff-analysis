@@ -4,14 +4,14 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Conversation Drop-off Analysis</title>
 <link rel="stylesheet" href="styles.css">
-<script src="data.js" defer></script><script src="app.js" defer></script>
+<script src="data.js" defer></script><script src="app.js?v=20261113-voice" defer></script>
 <link rel="stylesheet" href="research-web.css?v=20261113">
 </head>
 <body class="research-web dropoff-project">
 <main>
 <p class="eyebrow">TERESA RISTOW · RESEARCH METHODS</p>
 <h1>Where do responses get shorter?</h1>
-<p class="intro">A conversation drop-off method for finding turns worth reviewing. Explore a known synthetic change, then compare patterns in public research interviews.</p>
+<p class="intro">I use changes in response length to find turns worth taking a closer look at. Try a synthetic example with a known change, then compare the patterns in public research interviews.</p>
 <section aria-labelledby="explore-title">
 <div class="heading"><h2 id="explore-title">Explore the analysis</h2><span id="source-label" class="badge"></span></div>
 <div class="controls">
@@ -22,18 +22,18 @@
 <p id="context" class="context" aria-live="polite"></p>
 <div class="chart-head"><h3>Average participant response length</h3><span>Words per response</span></div>
 <svg id="chart" viewBox="0 0 900 300" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">Average response length by turn</title><desc id="chart-desc"></desc></svg>
-<p class="small">Only turns with at least 100 responses are shown. The table includes the changing sample size.</p>
+<p class="small">The chart shows turns with at least 100 responses. Open the table to see how many responses remain at each turn.</p>
 <h3>Four ways to locate a change</h3>
 <div class="methods" id="methods"></div>
 <p id="interpretation" class="interpretation" aria-live="polite"></p>
 <details><summary>Show response counts and averages</summary><div class="table-wrap"><table><thead><tr><th>Participant turn</th><th>Responses</th><th>Average words</th><th>Median words</th></tr></thead><tbody id="rows"></tbody></table></div></details>
 </section>
 <section class="reading"><h2>What would I do with this?</h2>
-<p>Use the flagged turns to choose a review window. Read the questions and responses around that window, check whether the conversation was naturally ending, and compare the pattern across groups before changing an interview.</p>
-<p>These methods all use response length. Agreement between them is not a confidence score. Even a noisy flat synthetic series produces a flagged turn, so a result needs context and separate human review.</p>
+<p>I'd start by reading the questions and responses around the flagged turns. Was the conversation coming to a natural end? Does the same pattern show up in different groups? I'd want to understand that before changing the interview.</p>
+<p>All four methods use response length, so agreement between them isn't a confidence score. Even the noisy flat example flags a turn. I'd use these results to decide where to look, then read the conversation before drawing a conclusion.</p>
 <h3>Why the alternative views matter</h3>
 <ul><li>First responses can be short acknowledgments.</li><li>Final responses can be brief because the interview is complete.</li><li>Later turns include fewer people. The same-conversation view holds the group fixed through turn 10, but represents longer interviews only.</li></ul>
-<p>No human engagement ratings were collected for this analysis. The public-data run tests the workflow and its sensitivity, not whether it correctly identifies disengagement.</p>
+<p>This analysis doesn't include human ratings of engagement. The public-data example lets me check how the workflow behaves and how much the results change across views. It doesn't tell me whether someone disengaged.</p>
 </section>
 <footer>Public example: <a href="https://huggingface.co/datasets/Anthropic/AnthropicInterviewer">Anthropic Interviewer</a> · Data attributed under the publisher's CC-BY statement. Synthetic examples contain numeric counts only. No interview text or participant identifiers are included here. <a href="../README.md">Read the method and reproduction steps</a>.</footer>
 </main>
